@@ -55,7 +55,7 @@ export default function LeStudio() {
         
 
         <motion.div
-          className="absolute top-10 md:left-[10%] z-0"
+          className="absolute top-10 md:left-[10%] z-0 max-w-[600px]"
           style={{ y: springY1, scaleY: springScaleY }}
         >
           <Image
@@ -63,12 +63,13 @@ export default function LeStudio() {
             alt="studio"
             width={1000}
             height={666}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover w-auto h-auto"
           />
         </motion.div>
 
         <motion.div
-          className="hidden md:block absolute top-32 left-[60%] z-0"
+          className="hidden md:block absolute top-32 left-[60%] z-0 max-w-[400px]"
           style={{ y: springY2, scaleY: springScaleY }}
         >
           <Image
@@ -76,6 +77,7 @@ export default function LeStudio() {
             alt="studio"
             width={667}
             height={1000}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover w-auto h-auto"
           />
         </motion.div>

@@ -107,7 +107,7 @@ export default function ProjetRecent() {
                 height={571} 
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 50vw"
-                className="object-cover w-full h-auto"
+                className="object-cover w-auto h-auto"
               />
             </BlurFade>
             <p className="text-neutral-500 hover:text-white transition-colors duration-300 text-lg md:text-xl lg:text-2xl xl:text-3xl font-normal mt-6 text-start">
@@ -119,7 +119,7 @@ export default function ProjetRecent() {
         <div className="w-full h-auto flex items-center justify-around py-20 gap-8"> 
           <motion.div className="flex flex-col items-start justify-center" style={{ y: springY2, scale: springScale }}>
             <BlurFade> 
-              <Image src="/projetrecent/papillon2.jpg" alt="Projet 4" width={800} height={1000} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover w-full h-auto" />
+              <Image src="/projetrecent/papillon2.jpg" alt="Projet 4" width={800} height={1000} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover w-auto h-auto" />
             </BlurFade>
             <p className="text-neutral-500 hover:text-white transition-colors duration-300 text-lg md:text-xl lg:text-2xl xl:text-3xl font-normal mt-6 text-start">
               papillon
@@ -127,7 +127,7 @@ export default function ProjetRecent() {
           </motion.div>
           <motion.div className="flex flex-col items-start justify-center" style={{ scaleY: springScaleY }}>
             <BlurFade> 
-              <Image src="/projetrecent/fleur1.jpg" alt="Projet 5" width={675} height={1000} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover w-full h-auto" />
+              <Image src="/projetrecent/fleur1.jpg" alt="Projet 5" width={675} height={1000} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover w-auto h-auto" />
             </BlurFade>
             <p className="text-neutral-500 hover:text-white transition-colors duration-300 text-lg md:text-xl lg:text-2xl xl:text-3xl font-normal mt-6 text-start">
               fleur

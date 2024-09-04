@@ -23,7 +23,7 @@ export default function Footer() {
             <ul>
               {navLinks.map((link) => (
                 <li key={link.id} className="mb-2">
-                  <Link href={link.href} className=" text-neutral-500 hover:text-gray-300 text-lg">
+                  <Link href={`#${link.href}`} className=" text-neutral-500 hover:text-gray-300 text-lg">
                     {link.name}
                     </Link>
                     </li>
@@ -37,7 +37,7 @@ export default function Footer() {
             <ul>
               {teamData.team.map((artist) => (
                 <li key={artist.id} className="mb-2">
-                  <Link href={`/artist/${artist.id}`} className="text-neutral-500 hover:text-gray-300 text-lg">
+                  <Link href={`/equipe/${artist.id}`} className="text-neutral-500 hover:text-gray-300 text-lg">
                     {artist.name}
                   </Link>
                 </li>
