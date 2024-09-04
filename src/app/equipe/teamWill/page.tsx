@@ -10,6 +10,7 @@ import Image from "next/image";
 import BlurFade from "@/components/magicui/blur-fade";
 import GradualSpacing from "@/components/magicui/gradual-spacing";
 import BoxReveal from "@/components/magicui/box-reveal";
+import Footer from "@/components/footer";
 
 export default function WillPage() {
   const router = useRouter();
@@ -43,6 +44,7 @@ export default function WillPage() {
   };
 
   return (
+    <>
     <section className="relative w-full min-h-screen py-36 px-4 md:px-8 lg:px-16 xl:px-20">
       <Header />
       {/* LOGO */}
@@ -111,7 +113,7 @@ export default function WillPage() {
               <Link
                 href="/#Contact"
                 onClick={handleContactClick}
-                className="text-slate-950 text-xl md:text-2xl hover:text-white ease-in-out bg-white hover:bg-transparent border-2 border-white hover:border-custom-green px-24 py-6 transition-colors duration-300 my-14"
+                className="text-slate-950 text-xl md:text-2xl hover:text-white ease-in-out bg-white hover:bg-transparent border-2 border-white hover:border-custom-green px-14 md:px-24 py-6 transition-colors duration-300 my-14"
               >
                 {member.description[0].demande}
               </Link>
@@ -174,6 +176,8 @@ export default function WillPage() {
         </div>
       </div>
     </section>
+    <Footer />
+    </>
   );
 }
 
