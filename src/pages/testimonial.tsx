@@ -98,7 +98,7 @@ export default function Testimonial() {
       </motion.div>
 
       <div className="flex flex-col items-center justify-center">
-        <div className="border-[1px] border-white h-44 rounded-full" />
+        <div className="border-[1px] border-white h-24 md:h-44 rounded-full" />
       </div>
     </section>
   );

@@ -103,7 +103,7 @@ export default function Form() {
                 transition={{ duration: 0.2 }}
                 className="absolute z-10 w-full mt-1 bg-black border border-neutral-600 rounded-sm shadow-lg"
               >
-                {["", "artiste1", "artiste2", "artiste3", "artiste4"].map((option) => (
+                {["", "Franckick", "Chris", "Will", "Babe"].map((option) => (
                   <div
                     key={option}
                     className="px-3 py-2 hover:bg-neutral-800 cursor-pointer text-white"

@@ -13,7 +13,7 @@ export default function LeStudio() {
     offset: ["start end", "end start"],
   });
 
-  const y1 = useTransform(scrollYProgress, [0, 0.5, 1], [-500, 0, 450]);
+  const y1 = useTransform(scrollYProgress, [0, 1], [-350, 800]);
   const y2 = useTransform(scrollYProgress, [0, 0.5, 1], [-300, 0, 200]);
   const scaleY = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
 
