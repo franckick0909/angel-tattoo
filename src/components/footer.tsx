@@ -23,7 +23,7 @@ export default function Footer() {
             <ul>
               {navLinks.map((link) => (
                 <li key={link.id} className="mb-2">
-                  <Link href={`#${link.href}`} className=" text-neutral-500 hover:text-gray-300 text-lg">
+                  <Link href={`#${link.href}`} className=" text-neutral-500 hover:text-neutral-300 text-lg">
                     {link.name}
                     </Link>
                     </li>
@@ -37,7 +37,7 @@ export default function Footer() {
             <ul>
               {teamData.team.map((artist) => (
                 <li key={artist.id} className="mb-2">
-                  <Link href={`/equipe/${artist.id}`} className="text-neutral-500 hover:text-gray-300 text-lg">
+                  <Link href={`/equipe/${artist.id}`} className="text-neutral-500 hover:text-neutral-300 text-lg">
                     {artist.name}
                   </Link>
                 </li>
@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="flex space-x-4">
               {socialLinks.map((social) => (
                 <li key={social.id}>
-                  <a href={social.href} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-gray-300 text-lg">
+                  <a href={social.href} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-neutral-300 text-lg">
                     {social.icon}
                   </a>
                 </li>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-700 pt-8 mt-8 text-center">
+        <div className="border-t border-neutral-700 pt-8 mt-8 text-center">
           <p className="text-white text-lg">&copy; {new Date().getFullYear()} ANGEL TATTOO. Tous droits réservés.</p>
         </div>
       </div>

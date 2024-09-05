@@ -24,7 +24,7 @@ export default function Contact() {
           className="flex flex-col items-center justify-center overflow-hidden flex-1"
         >
           <motion.h2
-            className="text-neutral-600 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-12 text-center flex flex-wrap items-center justify-center"
+            className="text-neutral-500 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-12 text-center flex flex-wrap items-center justify-center"
             style={{ lineHeight: "0.9" }}
           >
             <motion.span
@@ -56,7 +56,7 @@ export default function Contact() {
               <div className="flex lg:flex-col lg:justify-end lg:items-end items-center justify-between md:justify-end gap-x-4">
                 <motion.a
                   href={link.href}
-                  className="text-neutral-600 text-3xl md:text-3xl lg:text-4xl xl:text-5xl hover:text-white transition-all duration-300 ease-in-out flex items-center justify-start leading-[0.8]"
+                  className="text-neutral-500 text-3xl md:text-3xl lg:text-4xl xl:text-5xl hover:text-white transition-all duration-300 ease-in-out flex items-center justify-start leading-[0.8]"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ lineHeight: "0.7" }}
@@ -89,9 +89,9 @@ export default function Contact() {
             >
               <span>Tu veux</span>
               <span>un tatouage</span>
-              <span className="text-neutral-600">fait par un</span>
+              <span className="text-neutral-500">fait par un</span>
               <span>artiste ?</span>
-              <span className="text-neutral-600">contactez nous !</span>
+              <span className="text-neutral-500">contactez nous !</span>
             </BoxReveal>
           </motion.h2>
         </div>
@@ -105,6 +105,7 @@ export default function Contact() {
         <h3 className="text-3xl text-white mb-4">Notre emplacement</h3>
 
         <motion.iframe
+        title="Notre emplacement"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5250.282956045124!2d2.340424076755864!3d48.85551250090857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e007755671%3A0xa87f37e47609b971!2s36%20Quai%20des%20Orf%C3%A8vres%2C%2075001%20Paris!5e0!3m2!1sfr!2sfr!4v1725435324519!5m2!1sfr!2sfr"
           width="100%"
           height="600"

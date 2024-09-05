@@ -103,7 +103,7 @@ export default function Header() {
                                 >
                                     <Link 
                                         href={`/#${item.href}`} 
-                                        className={`w-full text-5xl md:text-7xl lg:text-8xl xl:text-9xl hover:text-white transition-all duration-300 ${activeSection === item.href ? "text-white" : "text-neutral-600"}`}
+                                        className={`w-full text-5xl md:text-7xl lg:text-8xl xl:text-9xl hover:text-white transition-all duration-300 ${activeSection === item.href ? "text-white" : "text-neutral-500"}`}
                                         onClick={() => handleLinkClick(item.href)}
                                     >
                                         {item.name}

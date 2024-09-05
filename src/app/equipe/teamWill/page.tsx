@@ -64,7 +64,7 @@ export default function WillPage() {
             text={member.name}
           />
 
-          <motion.h3 initial={{ x: "-100%" }} whileInView={{ x: 0 }} transition={{ duration: 0.5, delay: 0.1 }}  className="text-neutral-600 text-lg md:text-xl xl:text-3xl font-extralight mb-4">
+          <motion.h3 initial={{ x: "-100%" }} whileInView={{ x: 0 }} transition={{ duration: 0.5, delay: 0.1 }}  className="text-neutral-500 text-lg md:text-xl xl:text-3xl font-extralight mb-4">
             Artiste Tatoueur
           </motion.h3>
 

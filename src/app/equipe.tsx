@@ -19,7 +19,7 @@ export default function Equipe() {
       >
         <motion.h2
           variants={titleVariants}
-          className="text-neutral-600 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-8 text-center max-w-[600px] flex flex-wrap items-center justify-center mx-auto leading-[0.7]"
+          className="text-neutral-500 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-8 text-center max-w-[600px] flex flex-wrap items-center justify-center mx-auto leading-[0.7]"
           style={{ lineHeight: "0.9" }}
         >
           <motion.span

@@ -44,7 +44,7 @@ export default function Testimonial() {
         className="flex flex-col items-center justify-center overflow-hidden"
       >
         <motion.h2
-          className="text-neutral-600 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-12 text-center flex flex-wrap items-center justify-center"
+          className="text-neutral-500 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-12 text-center flex flex-wrap items-center justify-center"
           style={{ lineHeight: "0.9" }}
         >
           <motion.span

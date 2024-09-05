@@ -43,7 +43,7 @@ export default function ProjetRecent() {
       >
         <motion.h1
         variants={titleVariants}
-        className="text-neutral-600 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-8 text-center max-w-[600px] flex flex-wrap items-center justify-center mx-auto z-20"
+        className="text-neutral-500 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-8 text-center max-w-[600px] flex flex-wrap items-center justify-center mx-auto z-20"
         style={{ lineHeight: "0.9" }}
       >
         <motion.span
@@ -84,9 +84,9 @@ export default function ProjetRecent() {
             <BoxReveal boxColor="rgb(17, 255, 17)" duration={0.5} stagger={0.1} originX={0} >
               <span>Découvrez</span>
               <span>notre sélection</span>
-              <span className="text-neutral-600">de créations récentes,</span>
+              <span className="text-neutral-500">de créations récentes,</span>
               <span>alliant innovation </span>
-              <span className="text-neutral-600">et esthétique.</span>
+              <span className="text-neutral-500">et esthétique.</span>
             </BoxReveal>
           </motion.h2>
           <div className="border-[1px] border-white h-24 md:h-44 rounded-full" />
