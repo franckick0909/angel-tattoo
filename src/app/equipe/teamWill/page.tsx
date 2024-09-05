@@ -52,7 +52,7 @@ export default function WillPage() {
         href="/"
         className="absolute top-4 left-4 md:left-8 lg:left-16 xl:left-20 text-2xl flex-shrink-0 flex items-center mt-4 z-20"
       >
-        <p className="text-neutral-600 ">
+        <p className="text-custom-green ">
           ANGEL <span className="text-white">TATTOO</span>
         </p>
       </Link>

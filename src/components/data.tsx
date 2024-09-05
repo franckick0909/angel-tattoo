@@ -78,8 +78,8 @@ import {
     btnIcon: <FaArrowRight />,
     galleryAll: [
       {
-        id: "gallery1",
-        category: "categorie 1",
+        id: "Franckick",
+        category: "Franckick",
         name: "Franck",
         images: [
           {
@@ -121,8 +121,8 @@ import {
         ],
       },
       {
-        id: "gallery2",
-        category: "categorie 2",
+        id: "Chris",
+        category: "Chris",
         name: "Chris",
         images: [
           {
@@ -164,9 +164,9 @@ import {
         ],
       },
       {
-        id: "gallery3",
-        category: "categorie 3",
-        name: "Nono",
+        id: "Will",
+        category: "Will",
+        name: "Will",
         images: [
           {
             src: "/gallery/img13.jpg",
@@ -201,9 +201,9 @@ import {
         ],
       },
       {
-        id: "gallery4",
-        category: "categorie 4",
-        name: "Alicia",
+        id: "Babe",
+        category: "Babe",
+        name: "Babe",
         images: [
           {
             src: "/gallery/img18.jpg",

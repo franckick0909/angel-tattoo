@@ -36,9 +36,9 @@ export default function LeStudio() {
             <BoxReveal boxColor="rgb(17, 255, 17)" duration={0.5} stagger={0.1} originX={1}>
               <span>Le studio</span>
               <span>vous accueille</span>
-              <span className="text-neutral-600">avec les meilleurs</span>
+              <span className="text-neutral-500">avec les meilleurs</span>
               <span>artistes</span>
-              <span className="text-neutral-600">tatoueurs</span>
+              <span className="text-neutral-500">tatoueurs</span>
             </BoxReveal>
           </motion.h1>
           
@@ -113,11 +113,11 @@ const Statistique = () => {
     <div className="w-full h-full grid md:grid-cols-3 place-items-center place-content-center gap-4 z-10">
       {number.map((item, index) => (
         <div key={index} className="flex flex-col items-center justify-center">
-          <h2 className="whitespace-pre-wrap text-[100px] md:text-[120px] lg:text-[130px] xl:text-[150px] font-medium tracking-tight text-neutral-600">
+          <h2 className="whitespace-pre-wrap text-[100px] md:text-[120px] lg:text-[130px] xl:text-[150px] font-medium tracking-tight text-neutral-500">
             <span className="text-neutral-400">{item.card}&nbsp;</span>
             <NumberTicker
               value={item.value}
-              className="whitespace-pre-wrap tracking-normal text-neutral-600"
+              className="whitespace-pre-wrap tracking-normal text-neutral-500"
             />
           </h2>
           <p className="text-white font-inter text-sm md:text-base lg:text-lg xl:text-2xl">

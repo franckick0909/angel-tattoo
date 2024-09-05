@@ -31,7 +31,7 @@ export default function Hero() {
         href="/"
         className="absolute top-4 left-4 md:left-8 lg:left-16 xl:left-20 text-2xl flex-shrink-0 flex items-center mt-4 z-20"
       >
-        <p className="text-neutral-950 ">
+        <p className="text-custom-green ">
           ANGEL <span className="text-white">TATTOO</span>
         </p>
       </Link>
@@ -61,7 +61,7 @@ export default function Hero() {
             <a
               href={link.href}
               key={link.id}
-              className="text-white md:text-neutral-600 text-3xl md:text-3xl lg:text-4xl xl:text-5xl hover:text-white transition-all duration-300 ease-in-out"
+              className="text-white md:text-neutral-500 text-3xl md:text-3xl lg:text-4xl xl:text-5xl hover:text-white transition-all duration-300 ease-in-out"
             >
               {link.name}
             </a>

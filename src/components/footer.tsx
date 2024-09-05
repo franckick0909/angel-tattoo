@@ -12,7 +12,7 @@ export default function Footer() {
         href="/"
         className="text-3xl flex items-center mt-4 z-20"
       >
-        <p className="text-neutral-600 ">
+        <p className="text-custom-green ">
           ANGEL <span className="text-white">TATTOO</span>
         </p>
       </Link>

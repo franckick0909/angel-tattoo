@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { containerVariants, titleVariants } from "@/components/data";
 
 export default function Gallery() {
-  const [filter, setFilter] = useState("tout");
+  const [filter, setFilter] = useState("Franckick");
   const [index, setIndex] = useState(-1);
 
   // Créez un tableau de toutes les catégories uniques
